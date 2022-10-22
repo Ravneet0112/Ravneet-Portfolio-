@@ -1,0 +1,59 @@
+*{
+    Box-sizing: border-box;
+    Margin:0;
+    Padding:0;
+    background-color: rgba(87, 213, 241, 0.977);
+    }
+    
+    ul, li, a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+    Font-weight: 500;
+    Font-size: 15px;
+    color : white;
+    text-decoration: none; }
+    
+    Header {
+    display: flex;
+    Justify-content: space-between;
+    Align-items: center;
+    padding: 30px;
+    }
+
+    .nav-links{
+        List-style: none;}
+        
+    .nav-links li{ 
+        display: inline-block;
+        padding: 0px 20px;
+        }
+           
+         
+    .nav-links li a:hover { 
+        color: rgb(29, 100, 124)
+    }
+
+    .start{ 
+        display: inline-block;
+        background-color: azure;
+        width: 100%;
+
+    }
+    
+    .start h2{
+        text-align: right;
+        background-color: azure;
+        padding: 20px;
+
+    }
+
+    .AboutMe, .work, .contact-me{
+        display: flex;
+        flex-direction: row; 
+        
+    }
+
+    .box1{
+        width: 30%;
+    }
+  
+    
