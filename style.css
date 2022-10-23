@@ -14,7 +14,7 @@
     
     Header {
     display: flex;
-    Justify-content: space-between;
+    justify-content: space-between;
     Align-items: center;
     padding: 30px;
     }
@@ -34,14 +34,14 @@
 
     .start{ 
         display: inline-block;
-        background-color: azure;
+        background-color: rgb(175, 248, 248);
         width: 100%;
 
     }
     
     .start h2{
         text-align: right;
-        background-color: azure;
+        background-color: rgb(175, 248, 248);
         padding: 20px;
 
     }
@@ -49,11 +49,70 @@
     .AboutMe, .work, .contact-me{
         display: flex;
         flex-direction: row; 
+        padding: 30px;
         
     }
 
     .box1{
         width: 30%;
     }
-  
-    
+
+    .box2{
+        width: 60%;
+        padding-right: 10px;
+
+    }
+
+    .box4{
+        width: 30%;;
+        justify-content: space-between;
+        padding-top: 10px;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 10px;
+        grid-template-rows: minmax(100px auto);
+    }
+
+    .grid-item1{
+        grid-column: 1 / -1;
+        grid-row: 1 / 4;
+    }
+
+    .grid-item2{
+        grid-column: 1 /2;
+        grid-row: 4 / 6;
+    }
+
+    .grid-item3{
+        grid-column: 2/ 3;
+        grid-row: 4 / 6;
+        
+    }
+    .grid-item6{
+        grid-column: 1 / -1;
+    }
+    /*
+    .box5{
+        border-color: 2px, solid, black;
+        width: 60%;
+        height: 400px;
+
+    }
+
+    .box6{
+        height: 200px;
+        text-align: right;
+        text-decoration: underline;
+        width: 100%;
+        padding: auto;        
+    }
+
+    .box7, .box8{
+       display: inline; 
+    }
+
+    */
+
