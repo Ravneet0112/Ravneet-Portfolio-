@@ -1,88 +1,129 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <title>Portfolio</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href= "style.css" />
-  </head>
-  <body>
-    <header>
-    <h1>Ravneet Sammewali</h1>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#About Me">About Me</a> </li>
-          <li><a href="#Work Experience">Work/Projects</a> </li>
-          <li><a href= "#Contact">Contact</a> </li>        
-        </ul>
-       </nav>
-    </header>
 
-    <div class="start">
-      <img src="my-image.jpg" alt="Background image">
-      <h2> My Code </h2>
-    </div>
+<head>
+  <title>Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Ravneet Sammewali</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#AboutMe">About Me</a> </li>
+        <li><a href="#WorkExperience">Work/Projects</a> </li>
+        <li><a href="#Contact">Contact</a> </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="start">
+    <img src="my-image.jpg" alt="Background image">
+    <h2> My Code </h2>
+  </div>
+  <div>
     <div>
     <article class="AboutMe">
-      <h2 class ="box1">About Me</h2>
-      <p class="box2"> Currently in coding bootcamp, I have 4+ years experience as Technical/customer support. I am a Bachelor's in Computer 
-        Science. I have learnt various skills, like HTML, CSS, JavaScript, Python, Node, react, SQL during bootcamp. Working in different teams during the course, I honed both Technical skills and interpersonal 
+      <h2 class="box1">About Me</h2>
+      <p class="box2"> Currently in coding bootcamp, I have 4+ years experience as Technical/customer support. I am a
+        Bachelor's in Computer
+        Science. I have learnt various skills, like HTML, CSS, JavaScript, Python, Node, react, SQL during bootcamp.
+        Working in different teams during the course, I honed both Technical skills and interpersonal
         skills. Beside coding I have a Comptia certificate in Cyber security and Cisco CCNA.
-        <br>       
+        <br>
       </p>
-      <p>
-        
-      </p>
+    </div>
     </article>
-    <span class = "horizontal"></span>
-    <article class = "work">
-      <h2 class = "box1" > Work/Projects</h2>
+    <span class="horizontal"></span>
 
-      <div= class="container">
-      <div class = " w-6 h-4">
-        <div class = "gallery-item">
-          <div class = “image”>
-            <a href="Project1"><img src="jscript.png"alt=JavaScript"></a>
+    <div class="row">
+      <div class="col-4">
+        <h2 class="WorkExperience"> Work/ Projects</h2>
+      </div>
+      <div class="col-8">
+        <div class="row">
+          <div class="col-10">
+            <a href="https://stocktistics.herokuapp.com/"> <img src="/images/jscript.png"> Stocktistics </a>
           </div>
-          <div class=”text”>JavaScript</div>
         </div>
-      </div>
-      <div class = " w-2 h-3">
-        <div class = "gallery-item">
-          <div class = “image”>
-            <a href="Project2"><img src="HTML.png" alt="HTML"></a>
+        <div class ="row">
+          <div class="col-6">
+            <a href="https://cdennis27.github.io/budgettrackergroup2/"><img src="images/HTML.png"> Budget Tacker></a>
           </div>
-          <div class=”text”>HTML</div>
-        </div>
-      </div>
-      <div class = " w-2 h-3">
-        <div class = "gallery-item">
-          <div class = “image”>
-            <a href="Project3"><img src="css.png" alt="CSS"></a>
+          <div class="col-6">
+            <a href="Project3"><img src="/images/css.png"> Project3</a>
           </div>
-          <div class=”text”>css</div>
         </div>
-      </div>
-      <div class = " w-2 h-4">
-        <div class = "gallery-item">
-          <div class = “image”>
-            <a  href="Project4"><img src= "MangoDB.png" alt = "Mango DB"></a>
+        <div class="row">
+          <div class="col-6">
+
           </div>
-          <div class=”text”>MangoDB</div>
+          <div class="col-6">
+            <a href="Project5"><img src="/images/reactjs.png"> Project5</a>
         </div>
       </div>
-      <div class = " w-2 h-3">
-        <div class = "gallery-item">
-          <div class = “image”>
-            <a href="Project5"><img src="reactjs.png" alt = "react"></a>
-          <div class=”text”>react</div>
-        </div>
-      </div>
-      </div>
-      
-    </article>
+    </div>
+
+    <article class="Contact">
+      <h2 class="box1">Contact</h2>
+
+      <p class="box2"> Email: ravneet.sammewali01@gmail.com       Contact: 6478346190</p>
+
+    
     <!--
+    <article class="work">
+      <h2 class="box1 WorkExperience"> Work/Projects</h2>
+      
+      <div class="container">
+        <div class=" w-6 h-4">
+          <div class="gallery-item">
+            <div class=“image”>
+              <a href="Project1"><img src="/Ravneet-Portfolio-/images/jscript.png" alt=JavaScript"></a>
+            </div>
+            <div class=”text”>JavaScript</div>
+          </div>
+        </div>
+        <div class=" w-2 h-3">
+          <div class="gallery-item">
+            <div class=“image”>
+              <a href="Project2"><img src="/Ravneet-Portfolio-/images/HTML.png" alt="HTML"></a>
+            </div>
+            <div class=”text”>HTML</div>
+          </div>
+        </div>
+        <div class=" w-2 h-3">
+          <div class="gallery-item">
+            <div class=“image”>
+              <a href="Project3"><img src="/Ravneet-Portfolio-/images/css.png" alt="CSS"></a>
+            </div>
+            <div class=”text”>css</div>
+          </div>
+        </div>
+        <div class=" w-2 h-4">
+          <div class="gallery-item">
+            <div class=“image”>
+              <a href="Project4"><img src="/Ravneet-Portfolio-/images/css.png" alt="Mango DB"></a>
+            </div>
+            <div class=”text”>MangoDB</div>
+          </div>
+        </div>
+        <div class=" w-2 h-3">
+          <div class="gallery-item">
+            <div class=“image”>
+              <a href="Project5"><img src="/Ravneet-Portfolio-/images/reactjs.png" alt="react"></a>
+              <div class=”text”>react</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </article>
+    
     <article class = "work">
       <h2 class = "box1" > Work/Projects</h2>
       <span class="box5">
@@ -99,15 +140,16 @@
           <h4>Project4<h4></a>
       </span>
     </article>
-  -->
-    
   
-  <span class = "horizontal"></span>
-    <article class ="contact-me">
+
+
+    <span class="horizontal"></span>
+    <article class="Contact">
       <h2 class="box1">Contact</h2>
       <h3 class="box4"> 6478346190 </h3>
       <h3 class="box4">ravneet.sammewali01@gmail.com</h3>
     </article>
-    </div>
+  -->
+  </div>
 
-  </body>
+</body>
